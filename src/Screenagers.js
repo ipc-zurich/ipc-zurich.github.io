@@ -9,21 +9,31 @@ import FormScreenagers from "./FormScreenagers";
 class Screenagers extends Component {
   render() {
     return (
-      <div className="Retreat">
+      <div id="screenagers">
         <header>
           <img id="logo" src={require("./img/ipc.png")} alt="logo" />
-          <Typography variant="headline" color="inherit" align="center">
-            Screenagers Film
+          <Typography variant="display2" color="inherit" align="center">
+            Sign up Screenagers Film
+          </Typography>
+          <Typography variant="title" color="inherit" align="left">
+            Where:
           </Typography>
           <Typography variant="body1" color="inherit" align="left">
-            Sign up page for the Screenagers Film
+            Evangelische-methodistische Kirche Zürich Ost
             <br />
+            Zentrum Zelthof
             <br />
-            Time
+            (Methodist Hall)
             <br />
-            April 5
+            Zeltweg 20
             <br />
-            Methodist Church
+            8032 Zürich
+          </Typography>
+          <Typography variant="title" color="inherit" align="left">
+            When:
+          </Typography>
+          <Typography variant="body1" color="inherit" align="left">
+            to be confirmed
           </Typography>
         </header>
         <FormScreenagers />
