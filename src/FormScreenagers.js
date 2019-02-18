@@ -61,10 +61,10 @@ class FormScreenagers extends React.Component {
               margin="normal"
             />
             <TextField
-              name="numPeople"
+              name="numberOfPeople"
               label="Number of People"
               className="textField"
-              onChange={this.handleChange("numPeople")}
+              onChange={this.handleChange("numberOfPeople")}
               margin="normal"
             />
           </div>
