@@ -9,10 +9,6 @@ import Icon from "@material-ui/core/Icon";
 import * as Actions from "./Actions/Actions.js";
 import Store from "./Stores/Store.js";
 
-import Info from "./Info";
-import Room from "./Room";
-import Kids from "./Kids";
-
 const styles = theme => ({ button: { height: 40, width: 100 } });
 
 class FormScreenagers extends React.Component {
@@ -26,7 +22,6 @@ class FormScreenagers extends React.Component {
   };
 
   render() {
-    const { showRoom } = this.state;
     return (
       <div className="container">
         <form action="https://formspree.io/office@ipc-zurich.org" method="POST">
