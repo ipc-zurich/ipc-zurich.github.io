@@ -33,7 +33,7 @@ class Screenagers extends Component {
             When:
           </Typography>
           <Typography variant="body1" color="inherit" align="left">
-            18:30 – 22:00
+            19:00 – 22:00
           </Typography>
         </header>
         <FormScreenagers />
